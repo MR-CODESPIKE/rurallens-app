@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "scope": "Africa-focused visual triage and educational guidance; not diagnosis",
+  "domains": {
+    "crop": {
+      "display_name": "Crop / plant",
+      "disclaimer": "Photo-based crop guidance is a screening aid. Confirm uncertain cases with an agricultural extension officer.",
+      "classes": [
+        {"id":"cassava_mosaic_disease","name":"Cassava mosaic disease","availability":"good"},
+        {"id":"cassava_brown_streak","name":"Cassava brown streak disease","availability":"partial"},
+        {"id":"banana_xanthomonas_wilt","name":"Banana Xanthomonas wilt","availability":"partial"},
+        {"id":"banana_fusarium_wilt","name":"Banana Fusarium wilt / Panama disease","availability":"partial"},
+        {"id":"maize_fall_armyworm_damage","name":"Maize fall armyworm damage","availability":"partial"},
+        {"id":"maize_gray_leaf_spot","name":"Maize gray leaf spot","availability":"good"},
+        {"id":"maize_lethal_necrosis","name":"Maize lethal necrosis","availability":"partial"},
+        {"id":"maize_aflatoxin_mold_signs","name":"Maize ear/kernel aflatoxin-associated mold signs","availability":"partial"},
+        {"id":"wheat_stem_rust","name":"Wheat stem rust","availability":"good"},
+        {"id":"wheat_yellow_rust","name":"Wheat leaf/yellow rust","availability":"good"},
+        {"id":"groundnut_rosette","name":"Groundnut rosette disease","availability":"partial"},
+        {"id":"groundnut_leaf_spot","name":"Groundnut leaf spot","availability":"partial"},
+        {"id":"coffee_leaf_rust","name":"Coffee leaf rust","availability":"good"},
+        {"id":"coffee_berry_disease","name":"Coffee berry disease","availability":"partial"},
+        {"id":"tomato_bacterial_wilt","name":"Tomato bacterial wilt","availability":"good"},
+        {"id":"tomato_late_blight","name":"Tomato late blight","availability":"good"},
+        {"id":"bean_common_mosaic","name":"Bean common mosaic virus","availability":"partial"},
+        {"id":"cowpea_mosaic","name":"Cowpea mosaic virus","availability":"partial"},
+        {"id":"rice_blast","name":"Rice blast","availability":"good"},
+        {"id":"potato_late_blight","name":"Potato late blight","availability":"good"}
+      ]
+    },
+    "animal": {
+      "display_name": "Livestock / animal",
+      "disclaimer": "Photo-based animal guidance is a screening aid. Isolate seriously ill animals where appropriate and contact a veterinary professional or extension officer.",
+      "classes": [
+        {"id":"foot_and_mouth_disease","name":"Foot-and-mouth disease","availability":"none"},
+        {"id":"lumpy_skin_disease","name":"Lumpy skin disease","availability":"good"},
+        {"id":"contagious_bovine_pleuropneumonia","name":"Contagious bovine pleuropneumonia","availability":"none"},
+        {"id":"rift_valley_fever","name":"Rift Valley fever","availability":"none"},
+        {"id":"african_swine_fever","name":"African swine fever","availability":"partial"},
+        {"id":"peste_des_petits_ruminants","name":"Peste des petits ruminants","availability":"partial"},
+        {"id":"anthrax","name":"Anthrax","availability":"none"},
+        {"id":"bovine_brucellosis","name":"Bovine brucellosis","availability":"none"},
+        {"id":"bovine_tuberculosis","name":"Bovine tuberculosis","availability":"partial"},
+        {"id":"newcastle_disease","name":"Newcastle disease","availability":"good"},
+        {"id":"highly_pathogenic_avian_influenza","name":"Highly pathogenic avian influenza","availability":"partial"},
+        {"id":"east_coast_fever","name":"East Coast fever / theileriosis","availability":"none"},
+        {"id":"trypanosomiasis","name":"Trypanosomiasis / nagana","availability":"none"},
+        {"id":"heartwater","name":"Heartwater","availability":"none"},
+        {"id":"mange","name":"Mange","availability":"good"},
+        {"id":"ringworm","name":"Ringworm / dermatophytosis","availability":"good"},
+        {"id":"sheep_goat_pox","name":"Sheep and goat pox","availability":"partial"},
+        {"id":"orf","name":"Orf / contagious ecthyma","availability":"partial"},
+        {"id":"contagious_caprine_pleuropneumonia","name":"Contagious caprine pleuropneumonia","availability":"none"},
+        {"id":"gastrointestinal_helminthiasis","name":"Gastrointestinal helminthiasis / parasitosis","availability":"partial"}
+      ]
+    },
+    "human": {
+      "display_name": "Human visible-skin condition",
+      "disclaimer": "This screen is for visual triage and education only. It is not a medical diagnosis. Consult a qualified healthcare professional, especially for pain, fever, rapidly spreading lesions, eye involvement, ulcers, or a child who is unwell.",
+      "classes": [
+        {"id":"atopic_dermatitis","name":"Atopic dermatitis","availability":"good"},
+        {"id":"tinea_versicolor","name":"Tinea versicolor","availability":"partial"},
+        {"id":"acne_vulgaris","name":"Acne vulgaris","availability":"good"},
+        {"id":"papular_urticaria","name":"Papular urticaria","availability":"partial"},
+        {"id":"tinea_dermatophytosis","name":"Tinea / dermatophytosis","availability":"good"},
+        {"id":"irritant_contact_dermatitis","name":"Irritant contact dermatitis","availability":"partial"},
+        {"id":"scabies","name":"Scabies","availability":"good"},
+        {"id":"seborrheic_dermatitis","name":"Seborrheic dermatitis","availability":"partial"},
+        {"id":"pityriasis_rosea","name":"Pityriasis rosea","availability":"partial"},
+        {"id":"urticaria","name":"Urticaria","availability":"partial"},
+        {"id":"viral_warts","name":"Viral warts","availability":"good"},
+        {"id":"tinea_capitis","name":"Tinea capitis","availability":"partial"},
+        {"id":"lichen_planus","name":"Lichen planus","availability":"partial"},
+        {"id":"vitiligo","name":"Vitiligo","availability":"good"},
+        {"id":"lichen_simplex_chronicus","name":"Lichen simplex chronicus","availability":"partial"},
+        {"id":"leprosy","name":"Leprosy / Hansen disease","availability":"good"},
+        {"id":"buruli_ulcer","name":"Buruli ulcer","availability":"good"},
+        {"id":"yaws","name":"Yaws","availability":"partial"},
+        {"id":"cutaneous_leishmaniasis","name":"Cutaneous leishmaniasis","availability":"partial"},
+        {"id":"onchocerciasis_skin","name":"Onchocerciasis skin manifestations","availability":"partial"}
+      ]
+    }
+  },
+  "sources": [
+    {"org":"FAO","url":"https://openknowledge.fao.org/bitstreams/a67f6ac7-a1a9-44c2-ad89-a7ec79e510e3/download","retrieved":"2026-08-20"},
+    {"org":"WOAH","url":"https://www.woah.org/en/what-we-do/animal-health-and-welfare/animal-diseases/","retrieved":"2026-08-20"},
+    {"org":"WHO","url":"https://www.who.int/activities/promoting-the-integrated-approach-to-skin-related-neglected-tropical-diseases","retrieved":"2026-08-20"},
+    {"org":"eSkinHealth","url":"https://arxiv.org/html/2508.18608v1","retrieved":"2026-08-20","license":"CC BY-NC-SA 4.0"}
+  ]
+}
